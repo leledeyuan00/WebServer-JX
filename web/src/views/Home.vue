@@ -1,5 +1,5 @@
 <template>
-  <div class="home container row">
+  <div class="home container row ">
     <!-- <el-row>
       <el-col :span="16"><div class="grid-content">123</div></el-col>
       <el-col :span="8"

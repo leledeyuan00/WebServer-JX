@@ -135,11 +135,6 @@ p {
   padding: 0.2rem 0.6rem;
 }
 
-.banner{
-  padding-top: 30px;
-  padding-left: 100px;
-  background-color: map-get($colors, "main-2");
-}
 
 //nav
 .nav {
@@ -164,23 +159,43 @@ p {
 
 // boders
 @each $dir in (top, right, bottom, left) {
-  .border-#{$dir} {
-    border-#{$dir}: 1px solid $border-color;
+  .bd-#{$dir} {
+    border-#{$dir}: 1px solid $bd-color;
   }
 }
 
 .border-body {
-  border-left: 1px solid $border-color;
-  border-right: 1px solid $border-color;
-  border-bottom: 1px solid $border-color;
+  border-left: 1px solid $bd-color;
+  border-right: 1px solid $bd-color;
+  border-bottom: 1px solid $bd-color;
+  border-top: 1px solid $bd-color;
   margin-bottom: 1rem;
   // padding-bottom: 1rem;
 }
 
+.body{
+  @extend .border-body;
+  width: 1080px;
+  height: auto;
+  margin: auto;
+}
+
+.banner{
+  // text-align: left;
+  padding-top: 30px;
+  margin-left: 100px;
+  margin: auto;
+  // padding-right: 1000px;
+  background-color: map-get($colors, "main-2");
+}
+
 .body-main {
-  max-width: 1080px;
+
+  height: 480px;
   padding-top: 20px;
   margin: auto;
+  background-color: map-get($colors, "main-1" );
+  
 }
 
 .body-left{

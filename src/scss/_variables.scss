@@ -1,8 +1,8 @@
 $colors: (
-  "main-1":#9DC3C1,
-  "main-2":#D8E6E7,
-  "main-3":#6E7783,
-  "main-4": #77AAAD,
+  "main-1":#FAF3E0,
+  "main-2":#EABF9F,
+  "main-3":#B68973,
+  "main-4": #1E212D,
   "light-1":#90DAD9,
   "grey": rgb(226, 226, 226),
   "grey-1": #666,
@@ -11,7 +11,7 @@ $colors: (
   "black": #000,
   "red":rgb(236, 14, 14)
 );
-$border-color: map-get($colors, "main-3" );
+$bd-color: map-get($colors, "main-4" );
 // font-size
 $base-font-size: 1rem;
 
