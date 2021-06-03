@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
+// element ui
+import {Button} from "element-ui"
+
 import "../../src/scss/style.scss";
 
 // if (process.env.NODE_ENV === "production") {
@@ -13,6 +16,8 @@ import "../../src/scss/style.scss";
 //     s.parentNode.insertBefore(hm, s);
 //   })();
 // }
+
+Vue.use(Button)
 
 Vue.config.productionTip = false
 
