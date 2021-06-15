@@ -1,28 +1,26 @@
 <template>
-  <div class="home container row ">
-    <!-- <el-row>
-      <el-col :span="16"><div class="grid-content">123</div></el-col>
+  <div class="pt-2 pl-2 pr-2">
+    <el-row :gutter="20">
+      <el-col :span="16"
+        ><div class="grid-content ">
+          <HomeContext/></div></el-col
+      >
       <el-col :span="8"
-        ><div class="grid-content"></div
+        ><div class="grid-content "><News /></div
       ></el-col>
-    </el-row> -->
-    <span class="body-left">主页</span>
-    <span class="body-right"> 新闻</span>
+    </el-row>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
+import News from "./News.vue";
+import HomeContext from "./HomeContext.vue";
 export default {
-  name: "Home",
-  components: {},
+  components: {
+    News,
+    HomeContext,
+  },
 };
 </script>
-<style>
 
-.grid-content {
-  border-radius: 4px;
-  min-height: 36px;
-}
-</style>
+<style></style>

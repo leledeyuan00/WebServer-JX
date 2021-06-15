@@ -9,7 +9,8 @@ $colors: (
   "main-5": #234D69,
   "main-6": #152D3E,
   "black": #000,
-  "red":rgb(236, 14, 14)
+  "red":rgb(236, 14, 14),
+  "white":rgb(255, 255, 255),
 );
 $bd-color: map-get($colors, "main-4" );
 // font-size

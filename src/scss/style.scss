@@ -137,25 +137,25 @@ p {
 
 
 //nav
-.nav {
-  display: flex;
-  .nav-item {
-    border-bottom: 3px solid transparent;
-    padding-bottom: 0.2rem;
-    &.active {
-      color: map-get($colors, "primary");
-      border-bottom: 3px solid map-get($colors, "primary");
-    }
-  }
-  &.nav-inverse {
-    .nav-item {
-      color: map-get($colors, "white");
-      &.active {
-        border-bottom-color: map-get($colors, "white");
-      }
-    }
-  }
-}
+// .nav {
+//   display: flex;
+//   .nav-item {
+//     border-bottom: 3px solid transparent;
+//     padding-bottom: 0.2rem;
+//     &.active {
+//       color: map-get($colors, "primary");
+//       border-bottom: 3px solid map-get($colors, "primary");
+//     }
+//   }
+//   &.nav-inverse {
+//     .nav-item {
+//       color: map-get($colors, "white");
+//       &.active {
+//         border-bottom-color: map-get($colors, "white");
+//       }
+//     }
+//   }
+// }
 
 // boders
 @each $dir in (top, right, bottom, left) {
@@ -187,22 +187,6 @@ p {
   margin: auto;
   // padding-right: 1000px;
   background-color: map-get($colors, "main-2");
-}
-
-.body-main {
-
-  height: 480px;
-  padding-top: 20px;
-  margin: auto;
-  background-color: map-get($colors, "main-1" );
-  
-}
-
-.body-left{
-  width: 720px;
-}
-.body-right{
-  width: 300px;
 }
 
 //heading

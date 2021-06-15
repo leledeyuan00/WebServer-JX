@@ -1,15 +1,13 @@
 <template>
   <div class="text-center">
-    <h2>科研项目</h2>
+    <h2>
+      新闻
+    </h2>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>

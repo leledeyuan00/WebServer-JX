@@ -1,7 +1,6 @@
 <template>
-  <div class="page-header bd-bottom">
+  <div class="page-header bd-bottom text-center pb-4 pt-4 bg-white">
     <h1>姜欣机器人实验室</h1>
-    <span>图片</span>
   </div>
   <!-- <div class="jumbotron">
   <div class="container">

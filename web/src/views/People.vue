@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <h2>科研项目</h2>
+    <h2>实验室人员</h2>
   </div>
 </template>
 

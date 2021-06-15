@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <h2>科研项目</h2>
+    <h2>发表文章</h2>
   </div>
 </template>
 
