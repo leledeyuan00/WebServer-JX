@@ -12,6 +12,7 @@ import {
   Notification,
 } from "element-ui";
 
+
 Vue.use(Button);
 Vue.use(Container);
 Vue.use(Loading.directive);
@@ -24,17 +25,7 @@ Vue.prototype.$prompt = MessageBox.prompt;
 Vue.prototype.$notify = Notification;
 Vue.prototype.$message = Message;
 
-// bootstrap vue
-import { LayoutPlugin, CardPlugin, ButtonPlugin } from "bootstrap-vue";
-
-Vue.use(LayoutPlugin);
-Vue.use(CardPlugin);
-Vue.use(ButtonPlugin)
-
 import "../../src/scss/style.scss";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-vue/dist/bootstrap-vue.css";
-
 // if (process.env.NODE_ENV === "production") {
 //   var _hmt = _hmt || [];
 //   (function() {

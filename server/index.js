@@ -7,6 +7,6 @@ app.use(express.json())
 app.use('/', express.static(__dirname + '/web'))
 app.use('/downloads', express.static(__dirname + '/downloads'))
 
-app.listen(80, () => {
-  console.log("http://localhost:80");
+app.listen(3000, () => {
+  console.log("http://localhost:3000");
 });
