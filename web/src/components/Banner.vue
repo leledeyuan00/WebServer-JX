@@ -2,9 +2,12 @@
   <div class="banner">
     <img src="../../../src/img/banner-1080.png" style="width:1078px" />
     <span class="img-tip">
-      <router-link to="/">中文</router-link>
+      <a :href="baseUrl">中文</a>
+      <!-- <router-link :to="baseUrl">中文</router-link> -->
       <span> | </span>
-      <router-link to="/en">En</router-link>
+      <!-- <a :href="baseUrl">中文</a> -->
+      <a :href="baseUrl_en">En</a>
+      <!-- <router-link to="/en">En</router-link> -->
     </span>
   </div>
   <!-- <div class="jumbotron">
@@ -15,7 +18,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      baseUrl: process.env.VUE_APP_BASEURL,
+      baseUrl_en : process.env.VUE_APP_BASEURL || "/en/",
+    };
+  },
+};
 </script>
 
 <style>
