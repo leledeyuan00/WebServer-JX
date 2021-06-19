@@ -182,11 +182,13 @@ p {
 
 .banner{
   // text-align: left;
-  padding-top: 30px;
-  margin-left: 100px;
+  // padding-top: 30px;
+  // margin-left: 100px;
+  position:relative;
+  display: inline;
   margin: auto;
   // padding-right: 1000px;
-  background-color: map-get($colors, "main-2");
+  // background-color: map-get($colors, "main-2");
 }
 
 //heading

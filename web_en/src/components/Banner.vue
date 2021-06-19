@@ -1,6 +1,6 @@
 <template>
   <div class="banner">
-    <img src="../../../src/img/banner-1080.png" style="width:1078px" />
+    <img src="../../../src/img/banner_en1080.png" style="width:1078px" />
     <span class="img-tip">
       <router-link to="/">中文</router-link>
       <span> | </span>
