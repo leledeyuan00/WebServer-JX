@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       baseUrl: process.env.VUE_APP_BASEURL,
-      baseUrl_en : process.env.VUE_APP_BASEURL || "/en/",
+      baseUrl_en : process.env.VUE_APP_BASEURL + '/en/',
     };
   },
 };
